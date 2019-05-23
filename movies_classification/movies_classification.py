@@ -13,7 +13,7 @@ import pandas as pd
 
 """Com o pandas importado, vamos buscar os dados dos filmes pela URI e renomear as colunas do Dataframe:"""
 
-uri_filmes = 'https://raw.githubusercontent.com/oyurimatheus/clusterirng/master/movies/movies.csv'
+uri_filmes = 'https://raw.githubusercontent.com/fabriciobedin/machine-learning/master/movies_classification/movies.csv'
 filmes = pd.read_csv(uri_filmes)
 
 filmes.columns = ['filme_id', 'titulo', 'generos']
