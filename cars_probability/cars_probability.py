@@ -12,7 +12,7 @@ Original file is located at
 
 import pandas as pd
 
-uri = "https://gist.githubusercontent.com/guilhermesilveira/4d1d4a16ccbf6ea4e0a64a38a24ec884/raw/afd05cb0c796d18f3f5a6537053ded308ba94bf7/car-prices.csv"
+uri = "https://github.com/fabriciobedin/machine-learning/blob/master/cars_probability/cars.csv"
 dados = pd.read_csv(uri)
 dados.head()
 
